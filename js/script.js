@@ -79,19 +79,44 @@
 //   incr++;
 //   decr--;
 
-  console.log(++incr);
-  console.log(--decr);
+//   console.log(++incr);
+//   console.log(--decr);
 
-  console.log(5%2);
+//   console.log(5%2);
 
-  console.log(2*4 === 8);
+//   console.log(2*4 === 8);
 
-  const isChecked = true,
-        isClose = false;
+//   const isChecked = true,
+//         isClose = false;
 
-  console.log(isChecked && isClose);
-  console.log(isChecked || !isClose);
+//   console.log(isChecked && isClose);
+//   console.log(isChecked || !isClose);
 
+// LESSON 13
 
-  
+const num = 50;
 
+if (num < 49) {
+      console.log('Error');
+} else if (num > 100) {
+      console.log("Not");
+} else {
+      console.log('Ok!');
+}
+
+(num == 50) ? console.log("OK!") : console.log('Error!');
+
+switch(num) {
+      case 49:
+            console.log('Error');
+            break;
+      case 100:
+            console.log('Error');
+            break;
+      case 50:
+            console.log('YES');
+            break;
+      default:
+            console.log('Error');
+            break;
+}
