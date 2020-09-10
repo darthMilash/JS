@@ -64,7 +64,6 @@ for (let i = 0; i < numberOfFilms; i++) {
         console.log("Вы киноман");
     }
     else { console.log('Error'); 
-
     }
     
 

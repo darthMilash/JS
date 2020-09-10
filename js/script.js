@@ -121,24 +121,91 @@
 //             break;
 // }
 //                         14- LESSON
-let num = 50;
+// let num = 50;
 
-while (num <=55) {
-      console.log(num);
-      num++;
-}
+// while (num <=55) {
+//       console.log(num);
+//       num++;
+// }
 
-do {
-      console.log(num);
-      num++;
-}
-while (num < 55);
+// do {
+//       console.log(num);
+//       num++;
+// }
+// while (num < 55);
 
-for (let i = 1; i < 8; i++) {
-      if (i ===6 ) {
-            // break;
-            continue;
-      }
+// for (let i = 1; i < 8; i++) {
+//       if (i ===6 ) {
+//             // break;
+//             continue;
+//       }
 
-      console.log(i);
-}
+//       console.log(i);
+// }
+
+//                         16- LESSON
+// let num = 20;
+
+// function showFirstMessage(text) {
+//       console.log(text);
+//       num = 10;
+// }
+
+// showFirstMessage("Hello World");
+// console.log(num);
+
+// function calc(a, b) {
+//       return a + b;
+// }
+
+// console.log(calc(5, 4));
+// console.log(calc(2, 1));
+
+// function salary(){
+//       let n = 200;
+//       return n;
+// }
+
+// console.log(salary());
+
+// const logger = function() {
+//       let r = 45;
+//       return r;
+// };
+// console.log(logger());
+
+// const calc2 = (a, b) => {
+//       console.log('1');
+//       return a + b;
+// };
+
+// console.log(calc2(8, 2));
+
+//                         17- LESSON
+
+// const str = 'hello dude   ';
+// const arr = [4, 2, 6]; 
+
+// console.log(str.length + ' ' + arr.length);
+// console.log(str[2]);
+// console.log(str.toUpperCase());
+// console.log(str.toLowerCase());
+
+// let fruit = 'Some fruit';
+
+// console.log(fruit.indexOf('fruit'));
+
+// const logg = 'hello world';
+
+// console.log(logg.slice(6, 11));
+
+// console.log(logg.substring(6, 11));
+
+// console.log(logg.substr(6, 4));
+
+// const num = 12.6;
+// console.log(Math.round(num));
+
+// const test = '12.2px';
+// console.log(parseInt(test));
+// console.log(parseFloat(test));
