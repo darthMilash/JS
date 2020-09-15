@@ -273,3 +273,57 @@
   //   }
   // }
   // console.log(counter);
+
+//   LESSON 21
+
+//   const arr = [1, 2, 3, 6, 8];
+//   arr.sort(compareNum);
+//   arr.pop();
+//   arr.push(10);
+
+//   function compareNum(a, b){
+//         return a-b;
+//   }
+
+//   console.log(arr);
+
+//   for (let i = 0; i < arr.length; i++) {
+//         console.log(arr[i]);
+//   }
+
+//   for (let value of arr) {
+//         console.log(value);
+//   }
+
+//   arr.forEach(function(item, i, array) {
+//       console.log(`${i}: ${item} in massive ${array}`);
+//   });
+
+// const str = prompt(``, ``);
+// const products = str.split(", ");
+// products.sort();
+// console.log(products);
+// console.log(products.join(`; `));
+
+
+// LESSON 22 
+
+let a = 5,
+b =a;
+
+b = b + 5;
+
+console.log(b); 
+console.log(a);
+
+const ob = {
+      a: 5,
+      b: 1
+};
+
+const copy = ob;
+
+copy.a = 10;
+
+console.log(copy);
+ console.log(ob);
