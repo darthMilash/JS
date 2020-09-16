@@ -409,3 +409,25 @@
 // };
 
 // const newQ = {...q};
+
+// // LESSON 23
+
+// let str = 'some';
+// let strObj = new String(str);
+
+// console.log(typeof(str));
+// console.log(typeof(strObj));
+
+// const soldier = {
+//   hp: 300,
+//   armor: 100,
+//   sayHello: function() {
+//     console.log('HELLO');
+//   }
+// };
+
+// const jonh = Object.create(soldier);
+
+// // Object.setPrototypeOf(jonh, soldier);
+
+// jonh.sayHello();
